@@ -1,0 +1,11 @@
+[Unit]
+Description=Toggle touchpad on Bluetooth mouse connection
+After=bluetooth.target
+
+[Service]
+ExecStart=%h/.local/bin/touchpad-bt-toggle.sh
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=default.target
