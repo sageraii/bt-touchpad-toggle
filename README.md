@@ -13,7 +13,7 @@
 ## 설치 / Install
 
 ```bash
-git clone https://github.com/lambda-ai/bt-touchpad-toggle.git
+git clone https://github.com/sageraii/bt-touchpad-toggle.git
 cd bt-touchpad-toggle
 bash install.sh
 ```
